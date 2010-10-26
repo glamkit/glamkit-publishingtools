@@ -1,0 +1,1 @@
+from publishingtools import settings
