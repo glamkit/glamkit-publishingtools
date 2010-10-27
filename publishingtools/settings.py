@@ -27,8 +27,8 @@ class dotdict_from_dicttuple(dict):
 
 DEFAULT_STATUS_CHOICES = {
     'DRAFT': (0, 'Draft', False),
-    'DUMMY': (1, 'Dummy', False),
-    'PUBLISHED': (2, 'Published', True),
+    'DUMMY': (2, 'Dummy', False),
+    'PUBLISHED': (1, 'Published', True),
     'REMOVED': (3, 'Removed', False),
 }
 
